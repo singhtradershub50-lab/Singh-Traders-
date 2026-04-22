@@ -1,77 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Singh Traders</title>
-
-  <style>
-    body {
-      margin:0;
-      font-family: Arial;
-      background:#f5f5f5;
-      text-align:center;
-    }
-
-    header {
-      background:#0d6efd;
-      color:white;
-      padding:15px;
-      font-size:24px;
-    }
-
-    .box {
-      background:white;
-      margin:20px;
-      padding:15px;
-      border-radius:10px;
-      box-shadow:0 0 10px rgba(0,0,0,0.1);
-    }
-
-    button {
-      padding:10px;
-      margin:5px;
-      border:none;
-      border-radius:5px;
-      background:green;
-      color:white;
-      cursor:pointer;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singh Traders - Building Material</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #d35400;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #d35400;
+            border-bottom: 2px solid #f4f4f9;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        ul {
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+        .contact-box {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;
+            background-color: #fef0e6;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        .map-container iframe {
+            width: 100%;
+            height: 350px;
+            border: none;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+    </style>
 </head>
-
 <body>
 
-<header>🏪 Singh Traders</header>
+    <header>
+        <h1>Singh Traders</h1>
+        <p>Premium Quality Building Material Supplier</p>
+    </header>
 
-<div class="box">
-  <h2>🛒 Products</h2>
-  <p>Grocery, building materials, daily use saman available</p>
-</div>
+    <div class="container">
+        
+        <div class="section">
+            <h2>🧱 Our Products</h2>
+            <p>We supply top-grade construction materials. Our updated product range includes:</p>
+            <ul>
+                <li><strong>Cement</strong> - Trusted brands for high strength</li>
+                <li><strong>Gravel (Gitti)</strong> - Quality crushed stone in all sizes</li>
+                <li><strong>Morang (Red Sand)</strong> - Premium red sand for robust construction</li>
+                <li><strong>White Sand (Balu)</strong> - Fine quality white sand</li>
+                <li><strong>Iron / Steel (TMT Bars)</strong> - Heavy-duty reinforcement bars</li>
+                <li><strong>Construction Sand</strong> - General purpose high-quality sand</li>
+            </ul>
+        </div>
 
-<div class="box">
-  <h2>📍 Location</h2>
-  <p>Haliyapur, Sultanpur (U.P.)</p>
-</div>
+        <div class="section">
+            <h2>📍 Our Location</h2>
 
-<div class="box">
-  <h2>📧 Contact</h2>
-  <p>Email: singhtraders@gmail.com</p>
-  <p>Phone: 9876543210</p>
-</div>
+http://googleusercontent.com/map_location_reference/1
+            <p><strong>Address:</strong> [Singh Traders](http://googleusercontent.com/map_location_reference/0), Jarai Kalan, Uttar Pradesh</p>
+            <p><strong>Google Plus Code:</strong> GQG8+3X</p>
+            
+            <div class="map-container">
+                <iframe 
+                    src="https://maps.google.com/maps?q=Singh%20Traders,%20Jarai%20Kalan,%20Uttar%20Pradesh&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
 
-<div class="box">
-  <button onclick="call()">📞 Call</button>
-  <button onclick="map()">📍 Map</button>
-</div>
+        <div class="section">
+            <h2>📞 Contact Us</h2>
+            <p>Call us for orders or daily market rates:</p>
+            
+            <div class="contact-box">
+                📱 Mobile: +91 XXXXXXXXXX <br>
+                🕒 Hours: 8:00 AM to 7:00 PM
+            </div>
+        </div>
 
-<script>
-function call(){
-  alert("Call: 9876543210");
-}
-
-function map(){
-  window.open("https://www.google.com/maps");
-}
-</script>
+    </div>
 
 </body>
 </html>
